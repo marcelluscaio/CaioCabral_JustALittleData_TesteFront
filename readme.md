@@ -38,6 +38,9 @@ O objetivo deste projeto foi criar um e-mail marketing responsivo e com opção 
 - [ ] Seção Observações
 - [ ] Footer
 
+## Layout
+https://www.figma.com/file/pXOQi76M38cWrpHsNHtVgR/TESTE-FRONT-END?t=BVBgt5qGTPAdxZA1-0
+
 ## Screenshots
 <p align="middle">
 <img src="assets/images/reademe.jpg" width="100%" height="100%">
