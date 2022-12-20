@@ -17,6 +17,10 @@
    border-bottom: 1px dashed var(--cor3);
 }
 
+.produtos__produto:last-of-type{
+   border-bottom: none;
+}
+
 .produto__imagem{
    flex: 0 0 20vw;
    object-fit: contain;
@@ -53,6 +57,22 @@
    font-weight: 700;
    text-align: center;
    padding: .625em 0 0;
+}
+
+.produtos__link{
+   background-color: var(--cor4);
+   color: var(--cor0); 
+   text-decoration: none;
+   font-size: var(--size-large);
+   font-weight: 700;
+   display: inline-block;
+   position: relative;
+   left: 50%;
+   transform: translateX(-50%);
+   padding: .75em 2.25em;
+   border-radius: .375em;
+   text-align: center;
+   margin: 1.5em auto;
 }
 
 @media screen and (max-width: 500px){

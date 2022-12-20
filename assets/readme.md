@@ -10,6 +10,7 @@ Tarefas
 - [X] Mensagem ao assinante
 - [X] Seção de produtos
 - [X] Responsividade seção de produtos
+- [ ] Seção Promoção
 
 - [ ] Fazer estrutura geral do HTML
 - [ ] Criar base de cores no css

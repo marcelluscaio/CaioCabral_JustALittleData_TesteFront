@@ -1,0 +1,73 @@
+.promocao__titulo{
+   background-color: var(--cor2);
+   color: var(--cor0);
+   font-size: var(--size-subtitle);
+   font-family: var(--familia-soleto);
+   padding: .5em 0 .5em 12vw;
+   text-align: center;
+   position: relative;
+}
+
+.promocao__titulo::before{
+   content: '';
+   width: 17vw;
+   height: 100%;
+   background-image: url('../images/MARCA\ ANIVERSÁRIO\ 2.svg');
+   background-repeat: no-repeat;
+   background-size: contain;
+   position: absolute;
+   left: 0;
+   top: 0;
+   margin-left: 4vw;
+}
+
+.promocao__descricao{
+   font-size: var(--size-large);
+   text-align: center;
+   padding: 1em;
+}
+.promocao__descricao > strong{
+   font-size: var(--size-extra-large);
+}
+
+.promocao__detalhe{
+   font-size: var(--size-small);
+   color: var(--cor3);
+   text-align: center;
+   margin-bottom: .25em;
+}
+
+.promocao__chamada{
+   font-size: var(--size-large);
+   color: var(--cor4);
+   font-weight: 700;
+   text-align: center;
+}
+
+.promocao__produtos{
+   display: flex;
+}
+
+.promocao__produtos__produto{
+   flex: 1;
+   font-size: var(--size-small);
+   text-align: center;
+   margin-top: auto;
+}
+
+.promocao__produtos__produto > *{
+   margin-bottom: .5rem;
+}
+
+.promocao__produto__link{
+   font-size: var(--size-normal);
+   color: var(--cor4);
+   font-weight: bold;
+}
+
+@media screen and (max-width: 500px) {
+   .promocao__titulo::before{
+      background-size: cover;
+      background-position: center;
+   }
+}

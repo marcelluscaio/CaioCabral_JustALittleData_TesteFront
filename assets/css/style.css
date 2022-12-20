@@ -2,6 +2,7 @@
 @import url('header.css');
 @import url('main.css');
 @import url('produtos.css');
+@import url('promocao.css');
 @import url('https://fonts.cdnfonts.com/css/soleto-trial');
 
 :root{
@@ -17,9 +18,11 @@
    --cor3: #5E5E5E;
    --cor4: #EB5628;
 
+   --size-small: clamp(.625rem, calc(.5rem + 1vw), 1.5rem);
    --size-normal: clamp(.875rem, calc(.75rem + 1vw), 1.75rem);
    --size-subtitle: clamp(1rem, calc(.875rem + 1vw), 1.875rem);
    --size-large: clamp(1.125rem, calc(1rem + 1vw), 2rem);
+   --size-extra-large: clamp(1.625rem, calc(1.5rem + 1vw), 2.5rem);
 
    --main-margem-lateral: 3vw;
    --main-padding: 3.5vw 4vw 4.5vw;
@@ -52,6 +55,10 @@ strong{
 
    .produto__imagem{
       filter: brightness(0.8) contrast(1.2);
+   }
+
+   .promocao__titulo::before{
+      filter: invert(1);
    }
 
 }
