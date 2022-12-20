@@ -1,6 +1,7 @@
 @import url('reset.css');
 @import url('header.css');
 @import url('main.css');
+@import url('produtos.css');
 @import url('https://fonts.cdnfonts.com/css/soleto-trial');
 
 :root{
@@ -10,13 +11,15 @@
    Color-scheme: light dark;
    /* supported-color-schemes:light dark; */
 
-   --cor0: #FFFFFF;
-   --cor1: #F5F5F5;
+   --cor0: #F5F5F5;
+   --cor1: #E2E2E2;
    --cor2: #000000;
    --cor3: #5E5E5E;
    --cor4: #EB5628;
 
-   --size-normal: clamp(.875rem, 2vw, 1.75rem);
+   --size-normal: clamp(.875rem, calc(.75rem + 1vw), 1.75rem);
+   --size-subtitle: clamp(1rem, calc(.875rem + 1vw), 1.875rem);
+   --size-large: clamp(1.125rem, calc(1rem + 1vw), 2rem);
 
    --main-margem-lateral: 3vw;
    --main-padding: 3.5vw 4vw 4.5vw;
@@ -25,8 +28,8 @@
 .dark{
    --cor0: #000000;
    --cor1: #5E5E5E;
-   --cor2: #FFFFFF;
-   --cor3: #F5F5F5;
+   --cor2: #F5F5F5;
+   --cor3: #E2E2E2;
 }
 
 body{
@@ -41,10 +44,14 @@ strong{
 
 @media (prefers-color-scheme: dark ) {
    :root{
-   --cor0: #000000;
-   --cor1: #5E5E5E;
-   --cor2: #FFFFFF;
-   --cor3: #F5F5F5;
+      --cor0: #000000;
+      --cor1: #5E5E5E;
+      --cor2: #F5F5F5;
+      --cor3: #E2E2E2;
+   }
+
+   .produto__imagem{
+      filter: brightness(0.8) contrast(1.2);
    }
 
 }

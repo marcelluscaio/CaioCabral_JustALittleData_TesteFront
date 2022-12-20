@@ -8,6 +8,7 @@ Tarefas
 - [X] Criar regra para mudar light dark mode
 - [X] Posicionamento do header
 - [X] Mensagem ao assinante
+- [ ] Seção de produtos
 
 - [ ] Fazer estrutura geral do HTML
 - [ ] Criar base de cores no css

@@ -9,7 +9,7 @@ main{
    font-weight: bold;
 }
 
-main > p{
+main > section > p{
    line-height: 1.2;
    margin-bottom: 1.2vw;
    max-width: 50ch;
@@ -19,6 +19,6 @@ main > p{
    font-size: var(--size-normal);
 }
 
-main > p:last-of-type{
+main > section > p:last-of-type{
    margin-bottom: 5vw;
 }
