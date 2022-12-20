@@ -40,5 +40,5 @@ O objetivo deste projeto foi criar um e-mail marketing responsivo e com opção 
 
 ## Screenshots
 <p align="middle">
-<img src="assets/images/readme.jpg" width="100%" height="100%">
+<img src="assets/images/reademe.jpg" width="100%" height="100%">
 </p>
