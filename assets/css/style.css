@@ -1,8 +1,50 @@
 @import url('reset.css');
+@import url('header.css');
+@import url('main.css');
 @import url('https://fonts.cdnfonts.com/css/soleto-trial');
 
 :root{
    --familia-arial: Arial, sans-serif;
    --familia-soleto: 'Soleto Trial', sans-serif;
+
+   Color-scheme: light dark;
+   /* supported-color-schemes:light dark; */
+
+   --cor0: #FFFFFF;
+   --cor1: #F5F5F5;
+   --cor2: #000000;
+   --cor3: #5E5E5E;
+   --cor4: #EB5628;
+
+   --size-normal: clamp(.875rem, 2vw, 1.75rem);
+
+   --main-margem-lateral: 3vw;
+   --main-padding: 3.5vw 4vw 4.5vw;
+}
+
+.dark{
+   --cor0: #000000;
+   --cor1: #5E5E5E;
+   --cor2: #FFFFFF;
+   --cor3: #F5F5F5;
+}
+
+body{
+   background-color: var(--cor1);
+   font-family: var(--familia-arial);
+   font-size: max(16px, 1rem);
+}
+
+strong{
+   font-weight: bold;
+}
+
+@media (prefers-color-scheme: dark ) {
+   :root{
+   --cor0: #000000;
+   --cor1: #5E5E5E;
+   --cor2: #FFFFFF;
+   --cor3: #F5F5F5;
+   }
 
 }

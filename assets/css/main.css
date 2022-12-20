@@ -1,0 +1,24 @@
+main{
+   background-color: var(--cor0);
+   margin: 0 var(--main-margem-lateral);
+   padding: var(--main-padding);
+}
+
+.main__assinante{
+   color: var(--cor4);
+   font-weight: bold;
+}
+
+main > p{
+   line-height: 1.2;
+   margin-bottom: 1.2vw;
+   max-width: 50ch;
+   position: relative;
+   left: 50%;
+   transform: translateX(-50%);
+   font-size: var(--size-normal);
+}
+
+main > p:last-of-type{
+   margin-bottom: 5vw;
+}
