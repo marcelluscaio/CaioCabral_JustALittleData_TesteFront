@@ -70,4 +70,8 @@
       background-size: cover;
       background-position: center;
    }
+
+   .promocao__produtos{
+      flex-direction: column;
+   }
 }
