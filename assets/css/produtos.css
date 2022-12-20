@@ -54,3 +54,21 @@
    text-align: center;
    padding: .625em 0 0;
 }
+
+@media screen and (max-width: 500px){
+   .produtos__produto{
+      flex-direction: column;
+   }
+
+   .produto__imagem{
+      flex: 0 0 auto;
+      object-fit: contain;
+      height: 45vh;
+   }
+}
+
+@media screen and (min-width: 1000px){
+   .produto__info{
+      justify-content: center;
+   }
+}
